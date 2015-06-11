@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        android:orientation="vertical" >
+		
+        
+        <HorizontalScrollView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+	    
+	        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >    
+	            
+
+		        <Button
+		            android:id="@+id/btnShowRoute"
+		            android:layout_width="111dp"
+		            android:layout_height="wrap_content"
+		            android:text="Call for help" />
+
+		        <ImageButton
+		            android:id="@+id/imageButton2"
+		            android:layout_width="67dp"
+		            android:layout_height="match_parent"
+		            android:scaleType="fitXY"
+		            android:src="@drawable/contactcall" />
+		        
+		        
+		        <Button
+		            android:id="@+id/btnHistory"
+		            android:layout_width="111dp"
+		            android:layout_height="wrap_content"
+		            android:text="Hisroty Msg" />
+		        
+		         <Button
+		            android:id="@+id/btnMsg"
+		            android:layout_width="111dp"
+		            android:layout_height="wrap_content"
+		            android:text="Quick Msg" />
+	            
+			</LinearLayout>
+		</HorizontalScrollView>
+	</LinearLayout>
+	
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        android:orientation="vertical" >
+		
+        
+        <HorizontalScrollView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+	    
+	        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >    
+	            
+
+		        <ScrollView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content" >
+
+
+				    <LinearLayout
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:orientation="horizontal" >
+ 
+		        			<TextView
+					            android:id="@+id/textView1"
+					            android:layout_width="wrap_content"
+					            android:layout_height="match_parent"
+					            android:text="Message:        \n"
+					            android:textSize="15dp" /> 
+		        	</LinearLayout>
+		        </ScrollView>
+
+		        <EditText
+				    android:id="@+id/editText1"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:inputType="textPersonName" 
+				    android:hint="Pls key msg...">
+	
+				    <requestFocus />
+				</EditText>
+		        
+		        <Button
+		            android:id="@+id/btnSend"
+		            android:layout_width="111dp"
+		            android:layout_height="wrap_content"
+		            android:text="Send msg" />
+		        
+	            
+			</LinearLayout>
+		</HorizontalScrollView>
+	</LinearLayout>
+        
+
+        <com.google.android.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_x="0px"
+            android:layout_y="102px"
+            android:apiKey="0YTpI7Pd6vuhyVt_og0CPnJ1L3Dsu1sY6zbXlrQ"
+            android:clickable="true"
+            android:enabled="true" >
+        </com.google.android.maps.MapView>
+    
+
+	
+		 
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="process.finalver.dica"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+	
+  	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+  	<uses-permission android:name="android.permission.INTERNET"/>
+  	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+  	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  	
+  	<com.google.android.maps.MapView
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:apiKey="0YTpI7Pd6vujBqWCNfYi5aVVCQEj7to_4a_8fqg"
+    />
+    
+    
+    
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".DicaVer4Activity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+            
+        <activity android:name="TabWidget" android:theme="@android:style/Theme.NoTitleBar"></activity>
+    	<activity android:name="Map2Activity"></activity>
+    	<activity android:name="Maptools"></activity>
+    	<activity android:name="MainFunctionActivity"></activity>   
+    	<activity android:name="ToolsActivity"></activity>
+    	<activity android:name="web"></activity>
+    	<activity android:name="cap.receiver.Map"></activity>
+    	<activity android:name="web1"></activity>
+    	<activity android:name="ShortpathActivity"></activity>
+    	<activity android:name="SetActivity"></activity>
+    	<activity android:name="CompassActivity"></activity>
+    	<activity android:name="PropertySetting" ></activity >
+    	<activity android:name="cap.receiver.PubnubTestActivity" ></activity >
+    	<activity android:name="PubnubTestActivity" ></activity >
+    	<activity android:name="MeteorMapActivity"></activity>
+    	<activity android:name="MeteorMapActivityForRequester"></activity>>
+    	    
+    	    
+		    
+		<uses-library android:name="com.google.android.maps" />
+		
+    </application>
+
+</manifest>

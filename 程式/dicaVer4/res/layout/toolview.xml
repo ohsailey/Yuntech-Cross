@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="67dp"
+            android:layout_height="66dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/compassicon" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="History msg" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="67dp"
+            android:layout_height="66dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/contactcall" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="67dp"
+            android:layout_height="66dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logofacebook" />
+
+    </LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="67dp"
+            android:layout_height="66dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/tag" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.13"
+            android:text="Broadcast" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, DicaVer4Activity!</string>
+    <string name="app_name">DicaVer4</string>
+    <string name="one">地圖</string>
+    <string name="two">救援工具</string>
+    <string name="three">自設工具</string>
+    <string name="four">設定</string>
+  	<string name="str_longitude">經度(Longitude)：</string>
+  	<string name="str_latitude">緯度(Latitude)：</string>
+  	<string name="str_err_address">地址不存在</string>
+  	<string name="str_err_location">無法取得Location</string>
+  	<string name="str_my_location">目前所在地址：</string>
+  	<string name="cardinal_north">N</string>
+  	<string name="cardinal_east">E</string>
+  	<string name="cardinal_south">S</string>
+  	<string name="cardinal_west">W</string>
+
+</resources>
